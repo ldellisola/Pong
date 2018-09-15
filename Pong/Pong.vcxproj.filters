@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Allegro">
+      <UniqueIdentifier>{4dca3530-120b-4f8e-baf7-76d0b5788909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Allegro">
+      <UniqueIdentifier>{351705b7-6f30-423f-9c40-796ed76d7dcb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroBox.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroButton.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroV2\AllegroClassV2.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroLayout.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroLog.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroMenu.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\AllegroWindow.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\WritableBox.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Allegro Wrapper\WrittenBox.cpp">
+      <Filter>Source Files\Allegro</Filter>
+    </ClCompile>
+    <ClCompile Include="Paddle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Puck.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScoreBoard.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AllegroEvent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Pong.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ScreenTitles.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Allegro Wrapper\WrittenBox.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\WritableBox.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroWindow.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroMenu.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroLog.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroLayout.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroV2\AllegroFactory.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroV2\AllegroClassV2.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroButton.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Allegro Wrapper\AllegroBox.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroV2\AllegroAddons.h">
+      <Filter>Header Files\Allegro</Filter>
+    </ClInclude>
+    <ClInclude Include="Paddle.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Puck.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScoreBoard.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AllegroEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Pong.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ScreenTitles.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportantConstants.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+</Project>
